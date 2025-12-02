@@ -67,7 +67,27 @@ def part2():
 
     print(total)
 
-print(-101//100)
+# def part3():
+#     total = 0
+#     current = 50
+#     for instruction in instructions:
+#         if instruction[0] == "L":
+#             if current == 0:
+#                 current += 100
+#             current -= instruction[1]
+#         else:
+#             current += instruction[1]
+#         if current == 0:
+#             total += 1
+#         else:
+#             total += abs(current // 100)
+#         current = current % 100
+
+#     print(total)
+
+# part2()
+# part3()
+# print(-100//100)
 # 6547 too low
 # 5941 too low
 
